@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE29D"
+    android:backgroundTint="#F8F1BA"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="236dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="522dp"
+        android:background="#F6EC98"
+        android:backgroundTint="#FAEF90"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="326dp"
+        android:background="#673AB7"
+        android:backgroundTint="#59945C"
+        android:backgroundTintMode="add"
+        android:text="True"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="326dp"
+        android:background="#673AB7"
+        android:backgroundTint="#F44336"
+        android:backgroundTintMode="add"
+        android:text="False"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="122dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginBottom="198dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
